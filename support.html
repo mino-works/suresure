@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | すれすれ</title>
+<meta name="description" content="アプリ「すれすれ」のサポートページ。遊び方、7つのエリア、よくある質問、お問い合わせ先。">
+<meta name="theme-color" content="#F2F4F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #F2F4F8;
+    --card: #FFFFFF;
+    --ink: #121826;
+    --ink-sub: #4B5568;
+    --line: #D3D9E4;
+    --accent: #B4500A;
+    --soft: #E6EAF1;
+    --gold: #E8B21E;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B1020; --card: #151C30; --ink: #E7EBF3; --ink-sub: #A3ACBE;
+      --line: #2A3450; --accent: #F2B544; --soft: #1C2540;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0B1020; --card: #151C30; --ink: #E7EBF3; --ink-sub: #A3ACBE;
+    --line: #2A3450; --accent: #F2B544; --soft: #1C2540;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+    font-size: 17px; line-height: 1.85;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; word-break: break-all; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  .site-head { border-bottom: 1px solid var(--line); }
+  .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
+  .brand { color: var(--ink); text-decoration: none; font-weight: 800; font-size: 19px; letter-spacing: 0.04em; }
+  .brand::before { content: ""; display: inline-block; width: 14px; height: 14px; margin-right: 8px; background: var(--gold); clip-path: polygon(50% 0, 100% 100%, 0 100%); vertical-align: -1px; }
+  nav a { font-weight: 700; text-decoration: none; font-size: 16px; }
+  main { padding: 24px 0 56px; }
+  h1 { font-size: clamp(26px, 6vw, 34px); line-height: 1.35; margin: 4px 0 16px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .contact { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  .contact p { margin: 6px 0; }
+  .mail { font-size: 18px; font-weight: 700; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 16px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+  details p { margin: 8px 0; }
+  .howto p { margin: 4px 0; }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--ink-sub); font-size: 14px; }
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./">すれすれ</a>
+    <nav aria-label="サイト内"><a href="./">プライバシーポリシー</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>すれすれ サポート</h1>
+
+    <section class="contact" aria-label="お問い合わせ">
+      <p>お問い合わせ、ご意見、不具合のご報告は、次のメールアドレスまでお送りください（English is OK）。</p>
+      <p class="mail"><a href="mailto:minoapp.vegas.rel@gmail.com?subject=%E3%81%99%E3%82%8C%E3%81%99%E3%82%8C%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">minoapp.vegas.rel@gmail.com</a></p>
+      <p>お使いの端末の機種名と OS のバージョン、起きたことと日時を書いていただけると、早く対応できます。画面のスクリーンショットがあれば添えてください。</p>
+      <p>個人で開発しているため、お返事に数日かかることがあります。</p>
+    </section>
+
+    <h2>遊び方</h2>
+    <div class="howto">
+      <p>ハートは5つ。前の車をすれすれで抜いて、点を稼ぎます。時間制限はありません。点がたまると、景色が次のエリアへ進みます。どこまで行けるかが、その回の記録です。</p>
+      <p>画面を触ると走り出します。指を左右に動かすと、車がついてきます。はじめての1回だけ、走りながら短い案内が出ます。</p>
+      <p>前の車の横を近くで抜けると「ニアミス」。もっと寄せると「すれすれ!」、いちばん近くで抜けると金色の「完璧!」。続けて抜くほど点の倍率が上がり、車も加速します。</p>
+      <p>ぶつかるとハートが1つ減り、0になったら1回おしまいです。道から外れて芝生を走り続けても、ハートが減ります。</p>
+      <p>エリアは7つ：草原 → 海ぞい → 夕やけ峠 → トンネル → 夜の街 → 雪の道 → 星の道。走っている間は、点の下に「次のエリアまで あと○点」が出ます。着くとエリアの名前が大きく出て、景色の色が変わります（はじめての所なら「はじめて到達!」）。</p>
+      <p>前の車のすぐ横に出るアイテム：光る星は6秒むてき（当てても「すれすれ!」になって点が入り、さらに加速します。ハートは減りません）。ハートは1つ回復します（5つそろっている時は出ません）。</p>
+    </div>
+
+    <h2>よくある質問</h2>
+
+    <details>
+      <summary>次のエリアに進めません。</summary>
+      <p>点は、前の車をすれすれで抜いた時にしか入りません。よけるだけでは点が増えないので、景色も進みません。少し怖くても横に寄せて抜くと、点が大きく伸びます。続けて抜くと点の倍率も上がります。</p>
+    </details>
+
+    <details>
+      <summary>行ったことのあるエリアは、どこで見られますか？</summary>
+      <p>タイトル画面のハートの下に、7つの丸があります。行ったことのあるエリアは、そのエリアの色になります（まだの所は灰色）。その下に、いちばん遠くまで行ったエリアと、いちばん高い点が出ます。1回終わるごとに、結果画面にも「どこまで来たか」と「次のエリアまで あと何点」が出ます。</p>
+    </details>
+
+    <details>
+      <summary>エリアは毎回、草原から始まりますか？</summary>
+      <p>はい。毎回、草原から走り出します。その回の点がたまるほど、先のエリアへ進みます。</p>
+    </details>
+
+    <details>
+      <summary>車によって速さは違いますか？</summary>
+      <p>違いません。8台とも、速さ・加速・当たり方は同じです。変わるのは形とエンジンの音だけなので、点はいつも腕だけで決まります。</p>
+    </details>
+
+    <details>
+      <summary>1回はどれくらいで終わりますか？</summary>
+      <p>時間制限はなく、ハートが0になると終わります。走るほど速く、前の車も多くなるので、1回はだいたい1〜2分です。</p>
+    </details>
+
+    <details>
+      <summary>はじめの案内をもう一度見たい。</summary>
+      <p>案内は、はじめての1回だけ走りながら出ます。遊び方は、このページの「遊び方」にまとめています。</p>
+    </details>
+
+    <details>
+      <summary>コインは何に使えますか？</summary>
+      <p>車を1台ずつ集めるのに使います。8台そろうと、車の色も選べます。コインは走って集めるだけで、お金で買うものはありません。</p>
+    </details>
+
+    <details>
+      <summary>きょうの道は、いつ切り替わりますか？</summary>
+      <p>端末の日付で、毎日0時に切り替わります。同じ日なら、だれが走っても同じ道です。本番は1日1回で、その点がその日の記録になります。天気や時間帯（最初のエリアの見た目）が日によって変わりますが、難しさは変わりません。</p>
+    </details>
+
+    <details>
+      <summary>ミッションが難しすぎます。</summary>
+      <p>ミッションの目標は、最近の走りに合わせて決まります。日付が変わると3つとも入れ替わるので、できなかったものはそのまま消えます。</p>
+    </details>
+
+    <details>
+      <summary>音やふるえを止めたい。</summary>
+      <p>タイトル画面の右上の歯車（設定）で、「音」と「ふるえ」（軽い振動）をそれぞれオン・オフできます。</p>
+    </details>
+
+    <details>
+      <summary>通信がなくても遊べますか？</summary>
+      <p>遊べます。本アプリは通信を使わずに動きます。</p>
+    </details>
+
+    <details>
+      <summary>機種変更したら、記録を引き継げますか？</summary>
+      <p>記録は端末の中だけに保存しています（アカウントやサーバーはありません）。端末のバックアップ（iCloud バックアップなど）から新しい端末を設定すると、記録も引き継がれます。アプリを削除すると、記録も消えます。</p>
+    </details>
+
+    <h2>プライバシー</h2>
+    <p>情報の取り扱いは、<a href="./">プライバシーポリシー</a>をご覧ください。</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 mino works</div>
+</footer>
+</body>
+</html>
