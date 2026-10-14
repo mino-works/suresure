@@ -71,18 +71,42 @@
 
 <main>
   <div class="wrap">
-    <p class="app">Suresure: Near-Miss Racer</p>
+    <p class="app">Suresure: Highway Near Miss</p>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective October 2, 2026. Updated October 11, 2026. / <a href="../" lang="ja">日本語</a></p>
+    <p class="date">Effective October 2, 2026. Updated October 13, 2026. / <a href="../" lang="ja">日本語</a></p>
 
     <p>This policy explains how mino works ("we") handles information in the app "Suresure" ("the app").</p>
     <p>Update of October 7, 2026: version 1.5 adds stages, the gacha, car abilities, the Starter Pack and English. Sections 2, 6 and 7 were updated. Version 1.5.3 removes the Starter Pack time limit.</p>
     <p>Update of October 10, 2026: version 1.5.6 adds 4 space cars to the gacha. Section 2 now lists the day you first opened 1.5.6 and whether its free spin was received. Nothing new is sent off the device.</p>
     <p>Update of October 11, 2026: version 1.5.7 gives a free gacha spin for every 7 days on which you finish a run. Section 2 now lists that day count, the last day counted and unused gift spins. Nothing new is sent off the device.</p>
+    <p>Update of October 13, 2026: from version 1.6.1, we use Google Analytics for Firebase to understand how the game is played and make it better. Section 1 now explains analytics, and section 8 lists it. You can turn it off in Settings.</p>
 
     <h2>1. What we collect</h2>
-    <p>We do not collect your name, email address, phone number or other personal information. There is no account, no login and no server of ours. We do not use analytics or crash reporting tools.</p>
+    <p>We do not collect your name, email address, phone number or other personal information. There is no account, no login and no server of ours. We do not use crash reporting tools.</p>
     <p>To keep the app free, it includes Google AdMob by Google LLC, which collects the information described in section 6.</p>
+
+    <h3 id="analytics">Analytics (Google Analytics for Firebase)</h3>
+    <p>To learn where the game feels too hard, how far players get and whether they come back, we use Google Analytics for Firebase by Google LLC.</p>
+    <ul>
+      <li>What is sent (only these):
+        <ul>
+          <li>App opens and time spent in the app (recorded automatically by Firebase)</li>
+          <li>Whether you watched the first how-to-play guide to the end or skipped it</li>
+          <li>End of each run: world, distance driven, meters left to the gate, whether you continued, how the run ended (crash or quit), the run count so far, and whether it was a test drive</li>
+          <li>The world opened when you pass a gate</li>
+          <li>Whether you continued after running out of hearts (and whether you watched a video)</li>
+          <li>Gacha spins (1 or 10, free or not, video spin or not)</li>
+          <li>In-app purchases: the kind of item, sent by the app (No Ads, Starter Pack or a coin pack), and the purchase that Firebase records automatically from the App Store (product ID, price and currency)</li>
+          <li>Which screen you were on when you closed the app or moved it to the background</li>
+          <li>A random ID created for each install; device model, OS and app version, language; and country or region estimated from your IP address</li>
+        </ul>
+      </li>
+      <li>What is not sent: your name, email address, advertising ID (IDFA), any ID that identifies you, or purchase transaction IDs. We never link analytics to you as a person.</li>
+      <li>Not used for ads: ad personalization signals, Google signals and links to AdMob or Google Ads are all turned off. This is not tracking, so it does not depend on the tracking prompt.</li>
+      <li>Retention: detailed per-user records are deleted after 2 months. Only totals such as counts and percentages are kept. Data may be processed on Google servers outside your country, including in the United States.</li>
+      <li>How to stop it: turn off "Send analytics" in Settings, and nothing more is sent. In the UK, the EEA and other regions that require consent, analytics is sent only if you agree on the consent form. If you withdraw consent later, sending stops from then on.</li>
+    </ul>
+    <p>Google's policies: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>, <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
 
     <h2>2. Data stored on your device</h2>
     <p>The app stores the following <strong>only on your device</strong>. It is never sent to us or anyone else.</p>
@@ -142,6 +166,7 @@
         <thead><tr><th scope="col">Recipient</th><th scope="col">Data</th><th scope="col">Purpose</th></tr></thead>
         <tbody>
           <tr><td>Google LLC (AdMob and consent tools)</td><td>Advertising ID and app identifiers, IP address, device and OS info, ad interactions, diagnostics, consent choices</td><td>Serving and measuring ads, fraud prevention, consent management</td></tr>
+          <tr><td>Google LLC (Google Analytics for Firebase)</td><td>How you use the app (see Analytics in section 1), in-app purchases (product ID, price and currency), a random ID per install, device and OS info, app version, language, country or region estimated from IP address</td><td>Usage analytics to improve the game. Turn off with "Send analytics" in Settings</td></tr>
           <tr><td>Apple Inc. (App Store)</td><td>What is needed to process purchases and restores</td><td>In-app purchases</td></tr>
         </tbody>
       </table>
