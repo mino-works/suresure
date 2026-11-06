@@ -73,7 +73,7 @@
   <div class="wrap">
     <p class="app">Suresure: Highway Near Miss</p>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective October 2, 2026. Updated November 6, 2026. / <a href="../" lang="ja">日本語</a></p>
+    <p class="date">Effective October 2, 2026. Updated November 7, 2026. / <a href="../" lang="ja">日本語</a></p>
 
     <p>This policy explains how mino works ("we") handles information in the app "Suresure" ("the app").</p>
     <p>Update of October 7, 2026: version 1.5 adds stages, the gacha, car abilities, the Starter Pack and English. Sections 2, 6 and 7 were updated. Version 1.5.3 removes the Starter Pack time limit.</p>
@@ -84,6 +84,7 @@
     <p>Update of October 30, 2026: version 1.9.6 removes car look parts and colors bought with coins, and the gacha now has cars and paints. Section 2 is updated, and section 6 now matches when ads appear in the current version. Nothing new is sent off the device.</p>
     <p>Update of November 3, 2026: from version 1.9.7, full-screen ads can also appear on the day you install. Section 6 is updated. Ads still never appear before you first clear Stage 2, the limits are the same, and nothing new is sent off the device.</p>
     <p>Update of November 6, 2026: from version 1.9.9, the end-of-run data also includes how many BIG power-up items you took and how many cars you flattened. These are counts only and do not identify you.</p>
+    <p>Update of November 7, 2026: version 1.10.0 removes BIG, so its 2 counts are no longer sent at the end of a run. It adds daily coins, so we now send that you claimed them, and keep the day you claimed them on the device (section 2). We also added to the list items that earlier versions already sent: that you got coins from a video, and that a full-screen ad was about to be shown and was shown. Sections 6 and 7 now match the current video coins and No Ads.</p>
 
     <h2>1. What we collect</h2>
     <p>We do not collect your name, email address, phone number or other personal information. There is no account, no login and no server of ours. We do not use crash reporting tools.</p>
@@ -96,9 +97,12 @@
         <ul>
           <li>App opens and time spent in the app (recorded automatically by Firebase)</li>
           <li>Whether you watched the first how-to-play guide to the end or skipped it</li>
-          <li>End of each run: world, distance driven, meters left to the gate, whether you continued, how the run ended (crash or quit), the run count so far, whether it was a test drive, and how many BIG items you took and how many cars you flattened</li>
-          <li>The world opened when you pass a gate</li>
-          <li>Whether you continued after running out of hearts (and whether you watched a video)</li>
+          <li>End of each run: stage and world, distance driven, meters left to the gate, whether you continued, how the run ended (clear, crash or quit), the run count so far, and whether it was a test drive</li>
+          <li>The stage and world when you pass a gate, and the stage it opens</li>
+          <li>Whether you continued after running out of hearts (whether you watched a video, and which continue it was in that run)</li>
+          <li>That you got coins from a video (which time that day; for No Ads buyers, the count of coins taken without a video)</li>
+          <li>That you claimed the daily coins (only that you did)</li>
+          <li>Full-screen ads: that one was about to be shown, that it was not ready, and that it was shown (before the result or after Next)</li>
           <li>Gacha spins (1 or 10, free or not, video spin or not)</li>
           <li>In-app purchases: the kind of item, sent by the app (No Ads, Starter Pack or a coin pack), and the purchase that Firebase records automatically from the App Store (product ID, price and currency)</li>
           <li>Which screen you were on when you closed the app or moved it to the background</li>
@@ -121,8 +125,9 @@
       <li>Starter Pack: whether it was shown on the result screen, whether you bought it, and whether an SSR car is still to be picked</li>
       <li>Cars you own, car levels, the car you selected, paints you own and how many, and the colors each car remembers and is using</li>
       <li>Gacha counters: spins toward the guaranteed SSR, the SSR you picked, whether the first 10 spins were used, dates of free spins (60 days), the day you first opened 1.5.6 and whether its free spin was received (to show a NEW mark on the new cars for 14 days and to give that free spin only once), the total number of days you finished a run, the last day counted and unused day gift spins (for the free spin every 7 days)</li>
+      <li>Daily coins: the last day you claimed them (so they come once a day)</li>
       <li>Install date and whether you have seen tips and notices</li>
-      <li>Ad counters to limit how often ads appear</li>
+      <li>Ad counters to limit how often ads appear, and for No Ads buyers, the day and count of gacha coins taken without a video</li>
       <li>Whether you have seen the tracking explanation</li>
       <li>Sound and vibration settings, and whether you bought No Ads</li>
       <li>A backup copy of this data in case it gets corrupted</li>
@@ -142,7 +147,7 @@
     <p>Ads are shown by Google AdMob. <strong>No ads appear while you are driving.</strong> There are no banner ads.</p>
     <ul>
       <li>Full-screen ads: after every 3 runs, right after a run ends and before the result, or after a clear when you tap Next. At least 60 seconds apart, up to 6 a day. Never before you first clear Stage 2.</li>
-      <li>Optional videos you choose to watch: double coins on the result screen (5 a day), 150 coins at the gacha (2 a day), and Continue here with 2 hearts when you run out, among others.</li>
+      <li>Optional videos you choose to watch: double coins on the result screen (5 a day), 400 coins at the gacha (no daily limit), and Continue here with 2 hearts when you run out, among others.</li>
     </ul>
     <p>Ads are limited to content suitable for all ages (G).</p>
     <p>AdMob may collect your advertising ID and app-specific identifiers, IP address (which may be used to estimate approximate location), ad interactions, device and OS information, and diagnostic data, to serve and measure ads and prevent fraud.</p>
@@ -157,7 +162,7 @@
     <h2>7. In-app purchases</h2>
     <p>You can open every stage just by driving, and coins come from every run. We sell:</p>
     <ul>
-      <li>No Ads (one-time purchase): removes full-screen ads and gives video rewards without videos, with the same limits.</li>
+      <li>No Ads (one-time purchase): removes full-screen ads and gives video rewards without videos. Double coins and Continue here keep the same limits. The 400 coins at the gacha come without a video up to 3 times a day.</li>
       <li>Coins: 450, 1,500 and 3,200. Your first 1,500-coin purchase on the device includes 1,500 bonus coins. Coins are used for the gacha and cars, and never expire.</li>
       <li>Starter Pack (one time only): 1,500 coins plus one SSR car you pick yourself. Shown on the gacha screen until you buy it, with no time limit.</li>
     </ul>
